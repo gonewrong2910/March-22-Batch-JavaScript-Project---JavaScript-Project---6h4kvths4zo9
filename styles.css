@@ -1,6 +1,5 @@
-
 body {
-    background-color: grey;
+    background-color: black;
     text-align: center;
 }
 input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
@@ -12,20 +11,21 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     width: 300px;
     height: 515px;
     border-radius: 25px;
-    background-color: honeydew;
+    background-color: rgb(202, 204, 202);
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
+    padding: 50px 50px;
     margin: auto;
 }
 .header
 {
     font-family: 'Annie Use Your Telescope';
-    background-color: black;
-    color: rgb(241, 173, 173);
-    font-size: 25px;
+    background-color: rgb(17, 195, 177);
+    color: #fff;
+    font-size: 40px;
     text-align: center;
     height: 50px; 
      width: 300px;
@@ -37,14 +37,14 @@ button {
 margin: 20px auto;
 width: 150px;
 height: 50px;
-background-color: black;
-color: rgb(156, 111, 111);
+background-color: rgb(17, 195, 177);
+color: rgb(14, 13, 13);
 font-size: 20px;
 border: none;
 border-radius: 5px;
 }
 button:hover{
-   color: rgb(178, 241, 67);
+   color: rgb(247, 247, 247);
 }
 input,
 select {
@@ -54,4 +54,10 @@ border-bottom: 1px solid green;
 padding: 10px;
 border-radius: 8px;
 }
+.tip{
+    background-color:rgb(17, 195, 177);
+    border-radius: 25px;
+    padding: 5px ;
+}
+
 
